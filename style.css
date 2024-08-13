@@ -1,8 +1,8 @@
 header {
-  display: flex;
 
   background-color: #071c55;
   min-width: 100%;
+
 }
 
 .nav-bar {
@@ -42,7 +42,7 @@ a {
 .d-flex {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
 
 }
 
@@ -54,6 +54,7 @@ body {
 }
 
 main {
+  flex-wrap: wrap;
   margin: 50px;
   width: 100vw;
 
@@ -102,6 +103,7 @@ h3 {
   background-color: white;
   height: 25vw;
   width: 100vw;
+  flex-wrap: wrap;
 }
 
 .bottom-links {
