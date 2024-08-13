@@ -1,0 +1,130 @@
+header {
+  display: flex;
+
+  background-color: #071c55;
+  min-width: 100%;
+}
+
+.nav-bar {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  text-decoration: none;
+  align-items: baseline;
+
+}
+
+.links {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links a {
+  color: white;
+}
+
+
+.chat-btn {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+body {
+  background-color: #071c55;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 50px;
+  width: 100vw;
+
+}
+
+.main-text {
+  color: white;
+  font-size: larger;
+  max-width: 25vw;
+  padding-left: 5em;
+  padding-right: -5em;
+}
+
+.explainer {
+  color: white;
+  font-size: 24px;
+}
+
+.mission {
+  color: white;
+  font-size: 16px;
+}
+
+.main-img {
+
+  padding-left: 5em;
+  padding-right: 9em;
+  max-width: 25vw;
+}
+
+.main {
+
+  background-color: #071c55;
+  display: flex;
+  min-width: 50vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+h3 {
+  color: #b0cc12;
+}
+
+.bottom {
+  background-color: white;
+  height: 25vw;
+  width: 100vw;
+}
+
+.bottom-links {
+  background-color: white;
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bottom-text {
+  text-align: center;
+}
+
+.bottom a {
+  text-decoration: underline;
+}
+
+footer {
+  outline: 1px dotted black;
+}
