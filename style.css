@@ -1,6 +1,30 @@
+/* Updated 8/13/24 evening to include regions for header main and footer classes */
+
+
+:root {
+  --dark: #02133f;
+  --light-blue: #56beff;
+  --light: white;
+}
+
+body {
+  background-color: #02133f;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/*#region START HEADER elements and classes */
 header {
 
-  background-color: #071c55;
+  background-color: #02133f;
   min-width: 100%;
 
 }
@@ -34,25 +58,23 @@ a {
 .chat-btn {
   color: white;
   background-color: blue;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 2px;
   font-weight: bold;
 }
 
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+/*#endregion HEADER elements and classes */
 
-}
 
-body {
-  background-color: #071c55;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-family: sans-serif;
-}
 
+/*#region START MAIN elements and classes */
+
+/* Holds services and text about what CS2 provides and mission statement, world image */
+
+/* Services
+Building web apps that scale to your world wide audience
+
+At CS2 we identify the digital divide with additional clickthrough from DevOps Nanotechnology immersion along the information highway to close the loop on focusing solely on the bottom line */
 main {
   flex-wrap: wrap;
   margin: 50px;
@@ -87,7 +109,7 @@ main {
 
 .main {
 
-  background-color: #071c55;
+  background-color: #02133f;
   display: flex;
   min-width: 50vw;
   padding-left: 10%;
@@ -95,11 +117,24 @@ main {
   justify-content: center;
 }
 
+
 h3 {
   color: #b0cc12;
 }
 
+/*#endregion MAIN elements and classes */
+
+
+
+
+/*#region START FOOTER elements and classes */
+footer {
+  background-color: white;
+}
+
+
 .bottom {
+  margin-top: 150px;
   background-color: white;
   height: 25vw;
   width: 100vw;
@@ -127,6 +162,5 @@ h3 {
   text-decoration: underline;
 }
 
-footer {
-  outline: 1px dotted black;
-}
+/*#endregion START FOOTER elements and classes */
+/* #BODY END */
